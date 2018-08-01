@@ -48,3 +48,8 @@ BusEvent.$on('some_key', (e) => {
     // something
 })
 ```
+
+## Bugs and Issues
+
+If you encounter any bugs or issues, feel free to [open an issue at
+github](https://github.com/hashemirafsan/bus-event/issues).
