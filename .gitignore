@@ -1,0 +1,6 @@
+node_modules/
+dist/
+package-lock.json
+webpack.mix.js
+mix-manifest.json
+.babelrc
