@@ -16,16 +16,35 @@ yarn add bus-event
 
 ## Usage
 
-Just import/require the package before start using it.
-
-As a Node.js Package:
-
-```javascript
-const BusEvent = require('bus-event');
-```
+Just import the package before start using it.
 
 As a ES6 Module:
 
 ```javascript
 import BusEvent from 'bus-event';
+```
+## Methods
+
+Now here we have two methods to complete our work.
+
+* [$emit](#emit)
+* [$on](#on)
+
+### `$emit(key, params)`
+
+When you will fire your event by bus event.
+
+```javascript
+BusEvent.$emit('some_key', {
+    // something 
+})
+```
+
+### `$on(key, callback)`
+When you will receive your event by bus event.
+
+```javascript
+BusEvent.$on('some_key', (e) => {
+    // something
+})
 ```
